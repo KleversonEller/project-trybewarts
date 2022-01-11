@@ -10,4 +10,11 @@ window.onload = function (){
             alert("Email ou senha inválidos.")
         }
     })
+    document.querySelector("#submit-btn").disabled = true
+    let confirmed = document.querySelector("#agreement")
+    confirmed.addEventListener("click", function(evento){
+        if (evento.target.checked == true) {
+            document.querySelector("#submit-btn").disabled = false
+        }
+    })   
 }
