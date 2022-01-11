@@ -20,12 +20,59 @@
 
     </header>
     <main>
-        <form action="" id="evaluation-form">
-            <input type="text" name="" id="input-name" placeholder="Nome">
-            <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
-            <input type="text" name="" id="input-email" placeholder="Email">
-        </form>
-        <img src="/images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+        <div>
+            <form action="" id="evaluation-form">
+                <div>
+                    <input type="text" name="" id="input-name" placeholder="Nome">
+                    <input type="text" name="" id="input-lastname" placeholder="Sobrenome">                
+                </div>
+                <div>
+                    <input type="text" name="" id="input-email" placeholder="Email">
+                    <select name="" id="house">
+                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
+                <div class="family">
+                    <label for="" id="label-family">Qual sua família?</label>
+                    <div>
+                        <input type="radio" name="family" value="Frontend">Frontend
+                    </div>
+                    <div>
+                        <input type="radio" name="family" value="Backend">Backend
+                    </div>
+                    <div>
+                        <input type="radio" name="family" value="FullStack">FullStack
+                    </div>
+                </div>
+                <div class="family">
+                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div>
+                        <input type="checkbox" value="HoFs"> HoFs
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Jest"> Jest
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Promises"> Promises
+                    </div>
+                    <div>
+                        <input type="checkbox" value="React"> React
+                    </div>
+                    <div>
+                        <input type="checkbox" value="SQL"> SQL
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Python"> Python
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <img src="/images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+        </div>
     </main>
     <script src="/script.js"></script>
 </body>
