@@ -18,5 +18,16 @@
 }
 
 #evaluation-form {
-    flex-direction: column
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+
+}
+
+main {
+    display: flex;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
 }
