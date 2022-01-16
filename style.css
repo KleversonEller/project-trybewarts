@@ -8,31 +8,59 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
 }
 
 .trybewarts-login {
   display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+
+.trybewarts-login input {
+  width: 120px;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  width: 60px;
 }
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  border: solid red;
+  align-items: center;
 }
 
 main {
+  border: solid;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: rgba(167, 166, 166, 0.205);
+  padding: 25px;
 }
 
-#trybewarts-forms-logo {
-  height: 500px;
-  align-self: flex-end;
+
+#evaluation-form div {
+  margin-top: 20px;
 }
 
 .family {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 /* ! O código foi desenvolvido em call do Zoom onde Kleverson e Thiago desenvolveram
