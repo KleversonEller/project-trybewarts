@@ -12,6 +12,14 @@
   padding: 5px 15px;
 }
 
+input {
+  padding: 4px;
+}
+
+select {
+  padding: 4px;
+}
+
 .trybewarts-login {
   display: flex;
   width: 320px;
@@ -27,32 +35,84 @@ button {
   cursor: pointer;
   border-radius: 4px;
   width: 60px;
+  padding: 4px;
 }
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
-  border: solid red;
-  align-items: center;
+  border: solid 2px;
+  border-radius: 5px;
 }
 
 main {
-  border: solid;
   display: flex;
   justify-content: space-around;
   background-color: rgba(167, 166, 166, 0.205);
   padding: 25px;
 }
 
+hr {
+  margin: 0 20px;
+}
+
+#input-name , #input-lastname {
+  width: 45%;
+}
+
+#input-email {
+  width: 70%;
+}
 
 #evaluation-form div {
   margin-top: 20px;
 }
 
+#evaluation-form p {
+  margin: 5px 20px;
+}
+
 .family {
   display: flex;
   flex-direction: column;
+  width: 45%;
+}
+
+#textarea {
+  width: 600px;
+  resize: none;
+  position: relative;
+  padding: 5px;
+}
+
+#counter {
+  position: absolute;
+  z-index: 1;
+  bottom: -15px;
+  left: 51%;
+}
+
+.container-sp-ar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-sp-ev {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-cen {
+  display: flex;
+  justify-content: center;
+}
+
+#submit-btn {
+  width: 300px;
+  height: 30px;
+  background-color: rgba(167, 166, 166, 0.438);
+  margin-bottom: 20px;
 }
 
 footer {
